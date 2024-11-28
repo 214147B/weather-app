@@ -1,14 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import "../global.css"
+import { Stack } from "expo-router";
 
 
 
 const RootLayout = () => {
   return (
-    <View style={styles.View}>
-      <Text className='text-red-500'>RootLayout</Text>
-    </View>
+    <Stack>
+      <Stack.Screen name="(tabs)"/>
+    </Stack>
+    
+   
   )
 }
 
