@@ -6,7 +6,7 @@ import {LinearGradient} from "expo-linear-gradient"
 const index = () => {
   return (
     <View>
-      <ImageBackground className="flex-1 w-full h-full bg-[#111]" source={backgroundImage} resizeMode="stretch"></ImageBackground>
+      <ImageBackground className=" w-full h-full bg-[#111] re" source={backgroundImage} resizeMode="cover"></ImageBackground>
       <LinearGradient colors={["transparent","#111"]} className="absolute left-0 right-0 bottom-[30%] h-[50%] z-10"></LinearGradient>
       <Text>Weather App</Text>
     </View>
