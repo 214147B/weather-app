@@ -19,7 +19,7 @@ const index = () => {
           <Text className='text-white text-[70px] font-bold'>72&#176;</Text>
           <Text className='text-white text-[36px font-semibold]'>C,London</Text>
           </View> 
-          <Image></Image>
+          {/* <Image></Image> */}
           </View>
 
         </View>
